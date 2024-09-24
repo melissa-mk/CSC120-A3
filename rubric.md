@@ -14,9 +14,9 @@ Listed below are various aspects of the assignment.  When you turn in your work,
 
 _____ 1 pt: `reflection.md` lists the classmates you consulted & TA hours attended
 
-_____ 1 pt: Program queries user for number of conversation rounds
+_YES_ 1 pt: Program queries user for number of conversation rounds
 
-_____ 1 pt: Program carries out requested number of conversation rounds
+_YES_ 1 pt: Program carries out requested number of conversation rounds
 
 _____ 1 pt: Allocates static array of canned responses
 
@@ -32,7 +32,7 @@ _____ 1 pt: Replaces simple mirror words appropriately (unpunctuated, lowercase)
 
 _____ 1 pt: Makes all appropriate mirror replacements
 
-_____ 1 pt: Stores transcript of the conversation in an array
+_YES_ 1 pt: Stores transcript of the conversation in an array
 
 _____ 1 pt: Prints transcript when terminating
 
@@ -48,7 +48,7 @@ _____ (Kudos!) Handles you --> me/I dilemma
 
 ## General Items:
 
-_____ 4 pts: Programs compile without errors or warnings
+_YES_ 4 pts: Programs compile without errors or warnings
 
 _____ 2 pts: Executes fully & consistently without crashing (exception/freeze)
 
@@ -56,9 +56,9 @@ _____ 2 pt: Complies with style guidelines (missing items 1 pt each):
 
       _____ Classes & class members all have Javadoc header comments
 
-      _____ Clear and consistent indentation of bracketed sections
+      _YES_ Clear and consistent indentation of bracketed sections
 
-      _____ Adheres to Java conventions on naming & capitalization
+      _YES_ Adheres to Java conventions on naming & capitalization
 
       _____ Methods & variables all have clear and accurate names
 
