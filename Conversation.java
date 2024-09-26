@@ -11,6 +11,17 @@ class Conversation {
   String[] defResponses={"Tell me more.","Sounds thrilling!", "Interesting.", "Why do you say that?"}; // predefined set of responses to user prompts
 
   public Conversation() {
+    System.out.println("Welcome to the Chatbot.");
+  }
+
+  public void printTranscript(){
+    System.out.println("TRANSCRIPT:");
+      for (String s : transcript) { // iterating through the whole transcript
+          System.out.println(s);
+      }
+    System.out.println("End of the Chat");
+  }
+  public void chat(){
     System.out.println("How many rounds?");
     numRounds = new Scanner(System.in).nextInt();
     System.out.println("Hi there! What's on your mind?");
@@ -34,15 +45,10 @@ class Conversation {
     }
     transcript.add("Mmm-hm, see ya!");
   }
-  public void printTranscript(){
-    System.out.println("TRANSCRIPT:");
-      for (String s : transcript) { // iterating through the whole transcript
-          System.out.println(s);
-      }
-  }
 
   public static void main(String[] arguments) {
     Conversation c = new Conversation(); // runs the conversation
+    c.chat();
     c.printTranscript();
   }
 }
