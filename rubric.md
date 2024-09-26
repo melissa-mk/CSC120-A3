@@ -12,17 +12,17 @@ Listed below are various aspects of the assignment.  When you turn in your work,
 
 ### Level 1 (4 pts)
 
-_____ 1 pt: `reflection.md` lists the classmates you consulted & TA hours attended
+_YES_ 1 pt: `reflection.md` lists the classmates you consulted & TA hours attended
 
 _YES_ 1 pt: Program queries user for number of conversation rounds
 
 _YES_ 1 pt: Program carries out requested number of conversation rounds
 
-_____ 1 pt: Allocates static array of canned responses
+_YES_ 1 pt: Allocates static array of canned responses
 
 ### Level 2 (3 pts)
 
-_____ 1 pt: Uses a canned response when no mirror words detected
+_YES_ 1 pt: Uses a canned response when no mirror words detected
 
 _____ 1 pt: Detects the requested set of mirror words (at minimum)
 
@@ -34,7 +34,7 @@ _____ 1 pt: Makes all appropriate mirror replacements
 
 _YES_ 1 pt: Stores transcript of the conversation in an array
 
-_____ 1 pt: Prints transcript when terminating
+_YES_ 1 pt: Prints transcript when terminating
 
 ## Kudos:
 
@@ -50,9 +50,9 @@ _____ (Kudos!) Handles you --> me/I dilemma
 
 _YES_ 4 pts: Programs compile without errors or warnings
 
-_____ 2 pts: Executes fully & consistently without crashing (exception/freeze)
+_PART_ 2 pts: Executes fully & consistently without crashing (exception/freeze)
 
-_____ 2 pt: Complies with style guidelines (missing items 1 pt each):
+_YES_ 2 pt: Complies with style guidelines (missing items 1 pt each):
 
       _YES_ Classes & class members all have Javadoc header comments
 
@@ -62,8 +62,8 @@ _____ 2 pt: Complies with style guidelines (missing items 1 pt each):
 
       _YES_ Methods & variables all have clear and accurate names
 
-      _____ Methods avoid confusing side effects
+      _YES_ Methods avoid confusing side effects
 
 _YES_ 1 pt: All required files included with submission (including completed checklist file)
 
-_____ 1 pt: `reflection.md` contains your reflection on the assignment
+_YES_ 1 pt: `reflection.md` contains your reflection on the assignment
