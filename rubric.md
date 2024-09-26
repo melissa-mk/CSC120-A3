@@ -24,13 +24,13 @@ _YES_ 1 pt: Allocates static array of canned responses
 
 _YES_ 1 pt: Uses a canned response when no mirror words detected
 
-_____ 1 pt: Detects the requested set of mirror words (at minimum)
+_YES_ 1 pt: Detects the requested set of mirror words (at minimum)
 
-_____ 1 pt: Replaces simple mirror words appropriately (unpunctuated, lowercase)
+_NO_ 1 pt: Replaces simple mirror words appropriately (unpunctuated, lowercase)
 
 ### Level 3 (3 pts)
 
-_____ 1 pt: Makes all appropriate mirror replacements
+_NO_ 1 pt: Makes all appropriate mirror replacements
 
 _YES_ 1 pt: Stores transcript of the conversation in an array
 
@@ -50,7 +50,7 @@ _____ (Kudos!) Handles you --> me/I dilemma
 
 _YES_ 4 pts: Programs compile without errors or warnings
 
-_PART_ 2 pts: Executes fully & consistently without crashing (exception/freeze)
+_YES_ 2 pts: Executes fully & consistently without crashing (exception/freeze)
 
 _YES_ 2 pt: Complies with style guidelines (missing items 1 pt each):
 

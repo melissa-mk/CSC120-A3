@@ -10,4 +10,4 @@ Use this file to record your reflection on this assignment.
   - Some Java objects have inherent data type handling to prevent errors from the wrong types of input, as opposed to Python.
 - What worked, what didn't, what advice would you give someone taking this course in the future?
   - Do some research on alternative ways to solve your problem. This requires you to abstractly plan before you actually start coding.
-  - Learn I/O handling effectively. It will save you a headache.
+  - Learn I/O and string handling effectively. It will save you a headache.
