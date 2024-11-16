@@ -8,10 +8,13 @@ import java.util.Scanner;
  * At the end of the conversation, the chatbot prints a transcript of the whole conversation.
  */
 class Conversation {
-  int numRounds;
-  ArrayList<String> transcript = new ArrayList<>(); // typesafe array of strings to store user prompts and bot responses
-  String[] defResponses={"Tell me more.","Sounds thrilling!", "Interesting.", "Why do you say that?"}; // predefined set of responses to user prompts
+  public int numRounds;
+  private ArrayList<String> transcript = new ArrayList<>(); // typesafe array of strings to store user prompts and bot responses
+  private static final String[] defResponses={"Tell me more.","Sounds thrilling!", "Interesting.", "Why do you say that?"}; // predefined set of responses to user prompts
 
+  /**
+   * constructor
+   */
   public Conversation() {
     System.out.println("Welcome to the Chatbot.");
   }
